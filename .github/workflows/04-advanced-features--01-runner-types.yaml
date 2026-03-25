@@ -78,7 +78,7 @@ jobs:
   namespace-ubuntu-vm:
     name: Namespace Ubuntu VM
     # runs-on: namespace-profile-default
-    runs-on: ubuntu-24.04 # TODO: Change this to namespace-profile-default once you have set up your Namespace Labs account and linked it to this repo
+    runs-on: ubuntu-latest # TODO: Change this to namespace-profile-default once you have set up your Namespace Labs account and linked it to this repo
     steps:
       - name: Show runner info
         run: |
